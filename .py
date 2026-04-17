@@ -1,9 +1,9 @@
-#Importa as bibliotecas abaixo: 
-import numpy as np
-import pandas as pd
-import matplotlib.pyplot as plt
+#Importa as bibliotecas abaixo:
+import numpy as np #cálculos matemáticos
+import pandas as pd #manipulação de dados
+import matplotlib.pyplot as plt #visualização
 from sklearn.model_selection import train_test_split
-from sklearn.linear_model import LinearRegression
+from sklearn.linear_model import LinearRegression #machine learning para dividir dados e treinar o modelo (regressão linear)
 
 #Load data from CSV file // Carregar dados do arquivo CSV
 data = pd.read_csv('home_dataset.csv')
