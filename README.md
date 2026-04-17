@@ -1,14 +1,19 @@
-# Introdução
-Você já quis saber quanto custa alugar ou possuir um apartamento ou casa na sua região? Como aprendizado de máquina e estatística funcionam com uma linguagem de programação poderosa como Python?
+#Sistema para visualizar o valor de um imóvel em determinada região, utilizando aprendizado de máquina, python e estatística.
 
-Aprendizado de máquina é um campo importante que permite que computadores absorvam dados e aprendam padrões para fazer previsões e decisões. Vamos usar Python para aprender sobre um dos fundamentos da modelagem preditiva em aprendizado de máquina e, mais especificamente, regressão linear. Para nos ajudar, vamos usar algumas bibliotecas de ciência de dados:
+#O aprendizado de máquina vai ser utilizado para que o computador absorva dados e aprenda padrões para fazer previsões e decisões. O python vai ser utilizado para aprender fundamentos de modelagem preditiva em aprendizado de máquina e regressão linear.
+
+#Bibliotecas utilizadas:
 
 NumPy
 Pandas
 Matplotlib
 Scikit-learn
-# Regressão linear
-Em estatística, a regressão linear é usada para modelar relações entre variáveis x independentes (por exemplo, tamanhos de casas) e uma variável y dependente (por exemplo, preços de imóveis) ajustando uma equação linear aos dados observados. Simplificando, estamos traçando uma linha reta através de um conjunto de dados para mapear e prever. Em ciência de dados, a regressão linear é amplamente utilizada para tarefas como prever vendas, analisar tendências econômicas e entender o impacto das variáveis em um resultado.
+
+#Regressão linear:
+
+É o traçar de uma linha reta através de um conjunto de dados para mapear e prever. Na ciência de dados utilizamos para tarefas de previsão, analise de tendências e para entender o impacto das variáveis em um resultado.
+
+
 
 Neste tutorial, vamos criar um modelo de regressão linear para prever os preços das casas com base no tamanho das casas. Usando um gráfico de dispersão dos dados de teste, o modelo forma uma relação entre as duas variáveis e então faz previsões.
 
