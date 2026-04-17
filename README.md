@@ -26,3 +26,9 @@ Se você já se perguntou como gráficos de "previsão" são criados em Python, 
 Neste tutorial, usaremos um conjunto de dados que compara o tamanho e os preços das casas de propriedades recentemente vendidas no bairro Dumbo, no Brooklyn, para prever o custo das casas com base no tamanho.
 
 Nota: Esses dados foram coletados do Zillow.
+
+numpy para operações numéricas (aliasadas como ).np
+pandas para leitura e análise de dados (apelidos como ).pd
+matplotlib.pyplot para plotar grafos dos dados (aliasados como ).plt
+train_test_split de para treinar e testar o modelo.sklearn.model_selection
+A classe de para implementar regressão linear.LinearRegressionsklearn.linear_model
