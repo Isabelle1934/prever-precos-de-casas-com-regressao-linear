@@ -73,19 +73,17 @@ Com nosso objeto, usamos um gráfico de dispersão para visualizar os preços re
 
 Para levar suas habilidades ao próximo nível, considere buscar dados e utilizar regressão linear para visualização. O Kaggle é um ótimo lugar para encontrar conjuntos de dados que já foram comprovados, mas você também pode importar qualquer dado. Você pode usar a regressão linear para prever tantas coisas:
 
-Vendas de videogames baseadas em avaliações.
-Engajamento nas redes sociais baseado no crescimento de seguidores.
-Notas baseadas no tempo de estudo, e até tempo de recuperação baseado em dados médicos.
-As possibilidades são infinitas! Seja criativo e lembre-se de formatar seus dados para facilitar o acesso.
+#Ideias
 
-## Mais Recursos
-Para aprendizado e exploração adicionais, aqui estão alguns recursos para aprofundar seu entendimento:
+1. Vendas de videogames baseadas em avaliações.
+2. Engajamento nas redes sociais baseado no crescimento de seguidores.
+3. Notas baseadas no tempo de estudo.
 
-👀 Código-fonte deste tutorial.
-📊 Conjuntos de Dados Kaggle: Explore conjuntos de dados diversos para diversos projetos de aprendizado de máquina.
-🤖 Documentação Scikit-Learn: Mergulhe em informações detalhadas sobre aprendizado de máquina.
-📖 Documentação Pandas: Saiba mais sobre manipulação e análise de dados.
+#Mais Recursos
+#Para aprendizado e se aprofundar:
+
+1. Código-fonte deste tutorial.
+2. Conjuntos de Dados Kaggle: Explore conjuntos de dados diversos para diversos projetos de aprendizado de máquina.
+3. Documentação Scikit-Learn: Mergulhe em informações detalhadas sobre aprendizado de máquina.
+4. Documentação Pandas: Saiba mais sobre manipulação e análise de dados.
 📈 Documentação Matplotlib: Explore a documentação Matplotlib para criar visualizações cativantes.
-Ciência de Dados
-Intermediário
-Python
