@@ -15,40 +15,17 @@ Scikit-learn
 
 
 
-Neste tutorial, vamos criar um modelo de regressão linear para prever os preços das casas com base no tamanho das casas. Usando um gráfico de dispersão dos dados de teste, o modelo forma uma relação entre as duas variáveis e então faz previsões.
 
-# Sendo Colocado com Anaconda
-Este tutorial vai mostrar como usar modelagem preditiva no editor Anaconda Online. Estamos eliminando a necessidade de instalações locais. O Anaconda Online utiliza Jupyter Notebooks integrados e gerenciamento de pacotes poderoso que facilita muito a execução de programas complexos, incluindo regressão linear.
 
-Nota: Para usar o editor, certifique-se de ter criado uma conta gratuita.
-
-Comece abrindo seu navegador e visitando o Anaconda Online.
-
-Em seguida, faça login na sua conta para acessar a página inicial. Depois, selecione "Iniciar o Caderno" na seção "Code Online":
-
-# Nossas Ferramentas de Escolha
-Bibliotecas! Tem que amar eles. Neste tutorial, vamos usar as seguintes bibliotecas Python para análise de dados, visualização de dados e aprendizado de máquina:
-
-🔢 O NumPy oferece uma base sólida para operações numéricas e análise de dados.
-🐼 O Pandas permite que você analise, limpe, explore e manipule dados de diferentes fontes.
-📈 O Matplotlib transforma seus dados em visuais atraentes, como gráficos 2D e gráficos de barras.
-🤖 Scikit-learn, comumente conhecido como Sklearn, oferece uma interface amigável para todos os tipos de aprendizado de máquina.
+#O NumPy oferece uma base sólida para operações numéricas e análise de dados.
+#O Pandas permite que você analise, limpe, explore e manipule dados de diferentes fontes.
+#O Matplotlib transforma seus dados em visuais atraentes, como gráficos 2D e gráficos de barras.
+#Scikit-learn, comumente conhecido como Sklearn, oferece uma interface amigável para todos os tipos de aprendizado de máquina.
 Se você já se perguntou como gráficos de "previsão" são criados em Python, as chances são de que uma dessas 4 ferramentas tenha sido envolvida. Eles facilitam para iniciantes desbloquearem o poder do Python na ciência de dados.
 
-Após lançar o Notebook no Anaconda, abra um novo projeto:
+#Dados coletados do Zillow.
 
-# Começando
-Neste tutorial, usaremos um conjunto de dados que compara o tamanho e os preços das casas de propriedades recentemente vendidas no bairro Dumbo, no Brooklyn, para prever o custo das casas com base no tamanho.
 
-Nota: Esses dados foram coletados do Zillow.
-
-Para começar, vamos importar as bibliotecas. Lembre-se de que, como você está usando um emulador online, não há necessidade de instalações locais. Esta é uma configuração simples para regressão linear usando a biblioteca scikit-learn.
-
-Para uma rápida atualização, importamos as seguintes bibliotecas:
-
-numpy para operações numéricas (aliasadas como ).np
-pandas para leitura e análise de dados (apelidos como ).pd
-matplotlib.pyplot para plotar grafos dos dados (aliasados como ).plt
 train_test_split de para treinar e testar o modelo.sklearn.model_selection
 A classe de para implementar regressão linear.LinearRegressionsklearn.linear_model
 
