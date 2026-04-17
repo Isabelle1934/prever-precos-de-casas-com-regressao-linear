@@ -4,35 +4,35 @@ import matplotlib.pyplot as plt
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
 
-# Load data from CSV file
+#Load data from CSV file // Carregar dados do arquivo CSV
 data = pd.read_csv('home_dataset.csv')
  
-# Extract features and target variable
+#Extract features and target variable // Extrair características e variável
 house_sizes = data ['HouseSize'].values
 house_prices = data['HousePrice'].values
 
-# Visualize the data
+#Visualize the data // Visualização de dados
 plt.scatter(house_sizes, house_prices, marker ='o', color ='blue')
 plt.title('House Prices vs. House Size')
 plt.xlabel('House Size (sq.ft)')
 plt.ylabel('House Price ($)')
 plt.show()
 
-# Split the data into training and testing sets
+#Split the data into training and testing sets // Divida os dados em conjuntos de treinamento e teste
 x_train, x_test, y_train, y_test = train_test_split(house_sizes, house_prices, test_size=0.2, random_state=42)
 
-# Reshape the data for NumPy
+#Reshape the data for NumPy // Remodelar dados do Numpy
 x_train = x_train.reshape(-1, 1)
 x_test = x_test.reshape(-1, 1)
 
-# Create and train the model
+#Create and train the model // Crie e treine o modelo
 model = LinearRegression()
 model.fit(x_train, y_train)
 
-# Predict prices for the test set
+#Predict prices for the test set // Preveja os preços para o conjunto de testes
 predictions = model.predict(x_test)
 
-# Visualize the predictions
+#Visualize the predictions // Visualize as previsões
 plt.scatter(x_test, y_test, marker='o', color='blue', label='Actual Prices')
 plt.plot(x_test, predictions, color='red', linewidth=2, label='Predicted Prices')
 plt.title('Dumbo Property Price Prediction with Linear Regression')
