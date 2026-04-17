@@ -21,3 +21,8 @@ Bibliotecas! Tem que amar eles. Neste tutorial, vamos usar as seguintes bibliote
 📈 O Matplotlib transforma seus dados em visuais atraentes, como gráficos 2D e gráficos de barras.
 🤖 Scikit-learn, comumente conhecido como Sklearn, oferece uma interface amigável para todos os tipos de aprendizado de máquina.
 Se você já se perguntou como gráficos de "previsão" são criados em Python, as chances são de que uma dessas 4 ferramentas tenha sido envolvida. Eles facilitam para iniciantes desbloquearem o poder do Python na ciência de dados.
+
+# Começando
+Neste tutorial, usaremos um conjunto de dados que compara o tamanho e os preços das casas de propriedades recentemente vendidas no bairro Dumbo, no Brooklyn, para prever o custo das casas com base no tamanho.
+
+Nota: Esses dados foram coletados do Zillow.
