@@ -21,17 +21,15 @@ Se você já se perguntou como gráficos de "previsão" são criados em Python, 
 
 #Dados coletados do Zillow.
 
-#Ideias
+#Mais ideias
 
 1. Vendas de videogames baseadas em avaliações.
 2. Engajamento nas redes sociais baseado no crescimento de seguidores.
 3. Notas baseadas no tempo de estudo.
 
-#Mais Recursos
 #Para aprendizado e se aprofundar:
 
-1. Código-fonte deste tutorial.
-2. Conjuntos de Dados Kaggle: Explore conjuntos de dados diversos para diversos projetos de aprendizado de máquina.
-3. Documentação Scikit-Learn: Mergulhe em informações detalhadas sobre aprendizado de máquina.
-4. Documentação Pandas: Saiba mais sobre manipulação e análise de dados.
-5. Documentação Matplotlib: Explore a documentação Matplotlib para criar visualizações cativantes.
+2. Conjuntos de Dados Kaggle: Explorar conjuntos de dados para diversos projetos de aprendizado de máquina.
+3. Documentação Scikit-Learn: Mergulhar em informações detalhadas sobre o aprendizado de máquina.
+4. Documentação Pandas: Explorar mais sobre manipulação e análise de dados.
+5. Documentação Matplotlib: Exploração da documentação Matplotlib para criar visualizações.
